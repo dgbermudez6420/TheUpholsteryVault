@@ -1,0 +1,15 @@
+/* Targeted English-localization additions. The original stylesheet is unchanged. */
+.topstrip{font-size:12px;font-weight:700}
+.checkout-placeholder{background:#f8f6f0;border-block:1px solid #dfd5c1;padding:38px 0}
+.checkout-placeholder h2{font-size:27px}
+.checkout-placeholder p{max-width:650px;margin:12px auto;font-size:13px}
+.embed-slot{display:flex;flex-direction:column;gap:12px;max-width:650px;margin:22px auto;padding:30px 22px;border:2px dashed #cf6c32;border-radius:8px;background:#fff4e5;color:#172c24;text-align:center}
+.embed-slot strong{font-size:16px;letter-spacing:.5px;overflow-wrap:anywhere}
+.embed-slot span{font-size:12px}
+.checkout-placeholder .checkout-note{font-size:11px;color:#56615a}
+@media(max-width:540px){.topstrip{font-size:10px;letter-spacing:1px;padding:9px 12px}.hero h1{font-size:24px}.checkout-placeholder h2{font-size:23px}.embed-slot{padding:25px 15px}.embed-slot strong{font-size:13px}}
+/* Bonus images reproduce the rich Spanish promotional composition in English. */
+
+.price-loading{font-size:18px;font-weight:500}
+.previous-price:has([data-main-original-price]:empty){visibility:hidden}
+@media(max-width:540px){#oferta .price{font-size:clamp(34px,10vw,48px);overflow-wrap:anywhere}}
